@@ -1,0 +1,135 @@
+/* Projects Section */
+.projects-container {
+  text-align: center;
+  padding: 50px;
+  background: radial-gradient(circle at center, #1e0146, #000);
+  color: white;
+}
+
+.title {
+  margin-top: 50px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Project Card Container */
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Project Card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+
+/* Hover Effect */
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+/* Ensure image is at the top */
+.project-image {
+  order: -1; /* Moves image to the top */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.project-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+
+}
+
+.project-card:hover .project-image img {
+  opacity: 1;
+}
+
+/* Project Info */
+.project-info {
+  text-align: center;
+  padding: 20px;
+}
+
+.featured-text {
+  color: #b784f5;
+  font-size: 0.9rem;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Programming Languages */
+.language-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.language-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.language-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.language-name {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.language-icon:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* GitHub Button */
+.github-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 20px;
+  background: #aa85de;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+.github-button:hover {
+  background: #1e0146;
+}

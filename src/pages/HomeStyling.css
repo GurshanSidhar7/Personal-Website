@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Centering container and making it full-width */
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: max-content;
+    background-image: url('/public/image/good_space.jpg');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 5%;
+}
+
+/* Styling for text */
+.main__content h1 {
+    font-size: 4rem;
+    background-image: linear-gradient(to bottom, #d4baff, #b08df4); /* Slightly darker purple */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.main__content h2 {
+    font-size: 2rem;
+    background-image: linear-gradient(to bottom, #b08df4, #8d6fe8); /* Continues gradient with deeper purple */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.main__content p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.main__img--container{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,140 @@
+/* Gallery.css */
+.gallery-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, #1e0146, #000);
+  padding: 4rem;
+  position: relative;
+}
+
+.about-section {
+  text-align: center;
+  margin-bottom: 2rem; /* Space below About Me */
+}
+
+.about-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 50px;
+}
+
+.about-description {
+  color: #ddd;
+  font-size: 18.5px;
+  width: 50rem;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(10px);
+  border-radius: 10px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-description:hover {
+  transform: scale(1.05); /* Slight scale on hover for interactivity */
+}
+
+.about-image{
+  border-radius: 25px;
+  width: 800px;
+  height:400px;
+  object-fit: cover;
+}
+
+.gallery-content {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.gallery-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background-color: white;
+  transform: translateX(-50%);
+  height: 100%;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  position: relative;
+}
+
+.gallery-item {
+  display: flex;
+  flex-direction: column; /* Stack image and text vertically */
+  align-items: center; /* Center both image and text */
+  width: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  text-align: center; /* Center text content */
+}
+
+.gallery-item.left {
+  align-self: flex-start;
+  transform: translateX(calc(-10% - 10px)); /* Small gap from the line */
+}
+
+.gallery-item.right {
+  align-self: flex-end;
+  transform: translateX(calc(10% - 10px)); /* Small gap from the line */
+}
+
+.gallery-item:hover {
+  transform: scale(0.99);
+}
+
+.gallery-image {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.gallery-text {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 1.2rem;
+}
+
+.gallery-text h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.gallery-text p {
+  font-size: 1.25rem;
+  color: #fff; 
+  margin-top: 1rem;
+  background-color: rgba(170, 133, 222, 0.2);
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  display: inline-block; 
+}
+
+
+.gallery-grid a {
+  text-decoration: none;
+  color: inherit; 
+}
