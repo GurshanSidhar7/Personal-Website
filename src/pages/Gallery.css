@@ -6,10 +6,11 @@
   align-items: center;
   justify-content: center;
   background: radial-gradient(circle at center, #1e0146, #000);
-  padding: 4rem;
+  padding: 4rem 2rem; /* Adjusted padding for smaller screens */
   position: relative;
 }
 
+/* About Section */
 .about-section {
   text-align: center;
   margin-bottom: 2rem; /* Space below About Me */
@@ -26,13 +27,14 @@
 .about-description {
   color: #ddd;
   font-size: 18.5px;
-  width: 50rem;
+  max-width: 50rem; /* Set a max width */
+  width: 90%; /* Responsive width */
   margin: 0 auto;
   padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.1); 
+  background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
-  border-radius: 10px; 
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
 }
 
@@ -40,64 +42,75 @@
   transform: scale(1.05); /* Slight scale on hover for interactivity */
 }
 
-.about-image{
+.about-image {
   border-radius: 25px;
-  width: 800px;
-  height:400px;
+  max-width: 800px; /* Max width for large screens */
+  width: 100%; /* Responsive width */
+  height: auto; /* Maintains aspect ratio */
   object-fit: cover;
 }
 
 .gallery-content {
   display: flex;
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  justify-content: center;
-}
-
-.gallery-line {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 4px;
-  background-color: white;
-  transform: translateX(-50%);
-  height: 100%;
-}
-
-.gallery-grid {
-  display: flex;
   flex-direction: column;
-  gap: 2rem;
+  position: relative;
+  width: 100%;
   max-width: 1200px;
+  align-items: center;
+}
+
+/* New carousel container */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   position: relative;
+}
+
+/* Navigation buttons container */
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+/* Carousel Navigation Buttons */
+.carousel-button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
 }
 
 .gallery-item {
   display: flex;
   flex-direction: column; /* Stack image and text vertically */
   align-items: center; /* Center both image and text */
-  width: 600px;
+  width: 500px; /* Reduced from 600px */
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   position: relative;
   text-align: center; /* Center text content */
-}
-
-.gallery-item.left {
-  align-self: flex-start;
-  transform: translateX(calc(-10% - 10px)); /* Small gap from the line */
-}
-
-.gallery-item.right {
-  align-self: flex-end;
-  transform: translateX(calc(10% - 10px)); /* Small gap from the line */
+  margin: 0 auto; /* Center the item */
 }
 
 .gallery-item:hover {
@@ -105,8 +118,8 @@
 }
 
 .gallery-image {
-  width: 400px;
-  height: 500px;
+  width: 340px; /* Reduced from 400px */
+  height: 425px; /* Reduced from 500px */
   object-fit: cover;
   border-radius: 8px;
 }
@@ -114,27 +127,122 @@
 .gallery-text {
   color: white;
   margin-left: 1rem;
-  margin-top: 1.2rem;
+  margin-top: 1rem; /* Reduced from 1.2rem */
 }
 
 .gallery-text h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem; /* Reduced from 1.75rem */
   font-weight: bold;
 }
 
 .gallery-text p {
-  font-size: 1.25rem;
-  color: #fff; 
-  margin-top: 1rem;
+  font-size: 1.1rem; /* Reduced from 1.25rem */
+  color: #fff;
+  margin-top: 0.8rem; /* Reduced from 1rem */
   background-color: rgba(170, 133, 222, 0.2);
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 0.9rem; /* Reduced from 0.75rem 1rem */
   border-radius: 10px;
   backdrop-filter: blur(5px);
-  display: inline-block; 
+  display: inline-block;
 }
 
+.gallery-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Add animation for slide transition */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.gallery-item {
+  animation: fadeIn 0.5s ease-in-out;
+}
 
 .gallery-grid a {
   text-decoration: none;
   color: inherit; 
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .about-title {
+    font-size: 1.75rem;
+  }
+
+  .about-description {
+    font-size: 17px;
+  }
+
+  .gallery-item {
+    width: 90%; /* Makes gallery items scale on tablets */
+  }
+
+  .gallery-image {
+    width: 280px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 1.5rem; /* Reduce font size */
+  }
+
+  .about-description {
+    font-size: 16px;
+    width: 95%;
+  }
+
+  .about-image {
+    max-width: 100%;
+  }
+
+  .gallery-item {
+    width: 95%;
+    padding: 0.8rem;
+  }
+
+  .gallery-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .gallery-text p {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.3rem;
+  }
+
+  .about-description {
+    font-size: 15px;
+  }
+
+  .about-image {
+    border-radius: 15px;
+  }
+
+  .gallery-item {
+    width: 100%;
+  }
+
+  .gallery-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .gallery-text p {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+  }
 }

@@ -22,7 +22,7 @@ const projects = [
     name: "Portfolio Website",
     description: "This is my personal portfolio website, built using React, HTML, and CSS. It showcases my skills, projects, and experience in a clean, interactive design. I crafted this site to highlight my web development abilities and offer an easy-to-navigate space for visitors to explore my work",
     languages: ["HTML","React", "CSS", "JavaScript"],
-    github: "https://github.com/yourusername/portfolio-website",
+    github: "https://github.com/GurshanSidhar7/Personal-Website/tree/master?tab=readme-ov-file",
     image: "/image/port_website.png",
   },
   {
@@ -47,7 +47,7 @@ const Projects = () => {
               <h3 className="project-title">{project.name}</h3>
               <p className="project-description">{project.description}</p>
               <p className="project-languages">
-                <strong>Languages Used:</strong>
+                <strong>Technologies Used:</strong>
                 <div className="language-icons">
                   {project.languages.map((lang, i) => (
                     <div key={i} className="language-container">
