@@ -25,7 +25,7 @@ This portfolio serves as a comprehensive representation of my professional journ
 
 ## 🚀 Live Demo
 
-Check out the live version: [\[Your Portfolio URL\]](https://gurshansidhar.com/)
+Check out the live version: [\Gurshan Sidhars Website](https://gurshansidhar.com/)
 
 
 ## 📝 License
