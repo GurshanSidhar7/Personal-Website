@@ -33,7 +33,7 @@ const NavBar = () => {
             <Link to="/gallery" className="navbar__links" onClick={toggleMenu}>About Me</Link>
           </li>
           <li className="navbar__btn">
-            <a href="/Gurshan Sidhar Resume.pdf" className="button" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>
+            <a href="/Gurshan Sidhar Resume Final.pdf" className="button" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>
               Resume
             </a>
           </li>
