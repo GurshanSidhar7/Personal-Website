@@ -1,5 +1,5 @@
-import React from 'react'
-import './SocialStyling.css'
+import React from 'react';
+import './SocialStyling.css';
 
 const Socials = () => {
   return (
@@ -12,6 +12,7 @@ const Socials = () => {
       >
         <img src="image/linkedin.svg" alt="LinkedIn" className="icon" />
       </a>
+
       <a
         href="https://github.com/GurshanSidhar7"
         target="_blank"
@@ -21,8 +22,7 @@ const Socials = () => {
         <img src="image/github.svg" alt="GitHub" className="icon" />
       </a>
     </div>
+  );
+};
 
-  )
-}
-
-export default Socials
+export default Socials;

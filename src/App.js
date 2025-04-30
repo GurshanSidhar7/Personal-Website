@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <Cursor /> {/* Ensure Cursor is rendered */}
+      <Cursor /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />

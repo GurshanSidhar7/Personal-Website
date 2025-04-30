@@ -15,6 +15,7 @@ const languageIcons = {
   Docker: "/language-icons/docker.svg",
   AWS: "/language-icons/aws.svg",
   Git: "/language-icons/git.svg",
+  PokeAPI: "/language-icons/poke.svg",
 };
 
 const projects = [
@@ -32,6 +33,15 @@ const projects = [
     github: "https://github.com/CVLens/CVLens",
     image: "/image/cvlens.png",
   },
+
+  {
+    name: "Poke-Pal",
+    description: "PokeMatch AI is a full-stack web app with a Pokedex-style interface that matches your personality to a Pokémon. After answering a few fun questions, your responses are sent to a custom-built backend that integrates with the Gemini AI API to analyze your traits. It then fetches your perfect match from the PokéAPI and displays its image, stats, abilities, and a short explanation of why it fits you.",
+    languages: ["Python", "JavaScript", "HTML", "API", "Tailwind" , "Nextjs", "Git", "PokeAPI"],
+    github: "https://github.com/GurshanSidhar7/Poke-Pal",
+    image: "/image/PokePal.png",
+  },
+
 ];
 
 const Projects = () => {

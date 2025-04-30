@@ -1,0 +1,38 @@
+.webring {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.webring-link {
+  /* same size as the logo */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.webring-link:hover {
+  color: #aa85de;
+  transform: scale(1.1);
+}
+
+.webring-logo {
+  /* match arrow size */
+  width: 80px;
+  height: 80px;
+  transition: transform 0.2s ease;
+}
+
+.webring-logo:hover {
+  transform: scale(1.1);
+}
