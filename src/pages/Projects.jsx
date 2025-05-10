@@ -7,7 +7,7 @@ const languageIcons = {
   CSS: "/language-icons/css.svg",
   JavaScript: "/language-icons/javascript.svg",
   HTML: "/language-icons/html.svg",
-  API: "/language-icons/api.svg",
+  FastAPI: "/language-icons/api.svg",
   Python: "/language-icons/python.svg",
   Nextjs: "/language-icons/nextjs.svg",
   Tailwind: "/language-icons/tailwind.svg",
@@ -28,8 +28,8 @@ const projects = [
   },
   {
     name: "CVLens",
-    description: "Worked on a group project to create a web app that extracts data from resumes in PDF/DOCX formats. We used SpaCy's NLP model to pull details like contact info, education, skills, and work experience. Built an API to trigger an AWS Lambda function that processes the resume and returns the data in JSON. Designed a simple frontend with Next.js to display the extracted info.",
-    languages: ["Python", "Nextjs", "Tailwind", "SpaCy", "Docker", "AWS", "Git"],
+    description: "Worked on a group project to create a web app that extracts data from resumes in PDF/DOCX formats. We used SpaCy's NLP model to pull details like contact info, education, skills, and work experience. Built a RESTful API with FastAPI to process uploaded resumes using NLP and serve structured JSON responses. Designed a simple frontend with Next.js to display the extracted info.",
+    languages: ["Python", "Nextjs", "Tailwind", "SpaCy", "Docker", "Git"],
     github: "https://github.com/CVLens/CVLens",
     image: "/image/cvlens.png",
   },
@@ -37,7 +37,7 @@ const projects = [
   {
     name: "Poke-Pal",
     description: "PokeMatch AI is a full-stack web app with a Pokedex-style interface that matches your personality to a Pokémon. After answering a few fun questions, your responses are sent to a custom-built backend that integrates with the Gemini AI API to analyze your traits. It then fetches your perfect match from the PokéAPI and displays its image, stats, abilities, and a short explanation of why it fits you.",
-    languages: ["Python", "JavaScript", "HTML", "API", "Tailwind" , "Nextjs", "Git", "PokeAPI"],
+    languages: ["Python", "JavaScript", "HTML", "FastAPI", "Tailwind" , "Nextjs", "Git", "PokeAPI"],
     github: "https://github.com/GurshanSidhar7/Poke-Pal",
     image: "/image/PokePal.png",
   },
