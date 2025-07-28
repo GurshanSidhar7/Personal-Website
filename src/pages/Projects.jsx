@@ -16,16 +16,23 @@ const languageIcons = {
   AWS: "/language-icons/aws.svg",
   Git: "/language-icons/git.svg",
   PokeAPI: "/language-icons/poke.svg",
+  TypeScript: "/language-icons/typescript.svg",
+  Express: "/language-icons/default.svg",
+  Supabase: "/language-icons/default.svg",
+  PostgreSQL: "/language-icons/sql.svg",
+  
 };
 
 const projects = [
+
   {
-    name: "Portfolio Website",
-    description: "This is my personal portfolio website, built using React, HTML, and CSS. It showcases my skills, projects, and experience in a clean, interactive design. I crafted this site to highlight my web development abilities and offer an easy-to-navigate space for visitors to explore my work",
-    languages: ["HTML","React", "CSS", "JavaScript"],
-    github: "https://github.com/GurshanSidhar7/Personal-Website/tree/master?tab=readme-ov-file",
-    image: "/image/port_website.png",
+    name: "Lucky Lease",
+    description: "LuckyLease is a web‑based platform for short‑term subletting focused on student and intern housing. It offers JWT‑secured email/password authentication, listing creation and advanced filtering, multiple image uploads via Supabase Storage, real‑time chat with Socket.io, an interactive map for location discovery, and a Personalized AI advisor “Lucky” powered by Google Gemini API that analyzes budget, location, amenities, and lease duration to provide structured pros/cons and a compatibility rating.",
+    languages: ["TypeScript", "JavaScript", "Nextjs", "Tailwind", "Express", "Supabase", "PostgreSQL"],
+    github: "https://github.com/GurshanSidhar7/LuckyLease",
+    image: "/image/Lucky_Lease.png",
   },
+
   {
     name: "CVLens",
     description: "Worked on a group project to create a web app that extracts data from resumes in PDF/DOCX formats. We used SpaCy's NLP model to pull details like contact info, education, skills, and work experience. Built a RESTful API with FastAPI to process uploaded resumes using NLP and serve structured JSON responses. Designed a simple frontend with Next.js to display the extracted info.",
@@ -40,6 +47,14 @@ const projects = [
     languages: ["Python", "JavaScript", "HTML", "FastAPI", "Tailwind" , "Nextjs", "Git", "PokeAPI"],
     github: "https://github.com/GurshanSidhar7/Poke-Pal",
     image: "/image/PokePal.png",
+  },
+
+  {
+    name: "Portfolio Website",
+    description: "This is my personal portfolio website, built using React, HTML, and CSS. It showcases my skills, projects, and experience in a clean, interactive design. I crafted this site to highlight my web development abilities and offer an easy-to-navigate space for visitors to explore my work",
+    languages: ["HTML","React", "CSS", "JavaScript"],
+    github: "https://github.com/GurshanSidhar7/Personal-Website/tree/master?tab=readme-ov-file",
+    image: "/image/port_website.png",
   },
 
 ];

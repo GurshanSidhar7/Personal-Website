@@ -35,14 +35,8 @@ export default function Gallery() {
       <div className="about-section">
         <h1 className="about-title">About Me</h1>
         <img src="/gallery_image/gursh_speech.png" alt="My Picture" className="about-image" />
-        <p className="about-description">Hey, I'm Gurshan!  I'm a second-year Computer Science student minoring in Statistics at 
-          Wilfrid Laurier University. I love diving into problem-solving, working with data, 
-          and building creative projects that blend my passions with modern technology. Outside of tech, I'm passionate about 
-          photography, gaming, cooking, films and snowboarding. Capturing moments through a lens is something I really enjoy—it's a way 
-          to freeze time and tell a story without words. Music also plays a huge role in my life; there's nothing better 
-          than finding the perfect song to match a moment, whether it's a photo I've taken or just a feeling in the air.  
-          Below, you'll find a small gallery of my photography, each paired with a song that perfectly matches its vibe. 
-          Take a look, Click the image, and see where it takes you! 🎶📸</p>
+        <p className="about-description">Hey, I’m Gurshan! I’m a second-year Computer Science student minoring in Statistics at Wilfrid Laurier University. I love diving into problem-solving, working with data, and building creative projects that blend my passions with modern technology. Outside of tech, I’m passionate about photography, gaming, cooking, films and snowboarding. Capturing moments through a lens is something I really enjoy, it’s a way to freeze time and tell a story without words. Music also plays a huge role in my life; there’s nothing better than finding the perfect song to match a moment, whether it’s a photo I’ve taken or just a feeling in the air. Below, you’ll find a small gallery of my photography, each paired with a song that perfectly matches its vibe. Take a look, click the image, and see where it takes you! 🎶📸
+        </p>
       </div>
 
       <div className="gallery-content">
