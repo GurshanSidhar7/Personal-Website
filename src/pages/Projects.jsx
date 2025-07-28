@@ -29,7 +29,7 @@ const projects = [
     name: "Lucky Lease",
     description: "LuckyLease is a web‑based platform for short‑term subletting focused on student and intern housing. It offers JWT‑secured email/password authentication, listing creation and advanced filtering, multiple image uploads via Supabase Storage, real‑time chat with Socket.io, an interactive map for location discovery, and a Personalized AI advisor “Lucky” powered by Google Gemini API that analyzes budget, location, amenities, and lease duration to provide structured pros/cons and a compatibility rating.",
     languages: ["TypeScript", "JavaScript", "Nextjs", "Tailwind", "Express", "Supabase", "PostgreSQL"],
-    github: "https://github.com/GurshanSidhar7/LuckyLease",
+    github: "https://github.com/TaseskiCS/LuckyLease",
     image: "/image/Lucky_Lease.png",
   },
 
