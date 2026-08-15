@@ -1,53 +1,26 @@
 import { useEffect, useRef } from "react"
 import { useLocation } from "react-router-dom"
 
+const colors = [
+  "#ffffff", "#faf3ff", "#f5e7ff", "#f0dbff", "#ebcfff",
+  "#e6c3ff", "#e1b7ff", "#dcabff", "#d79fff", "#d293ff",
+  "#cd87ff", "#c87bff", "#c36fff", "#be63ff", "#b957ff",
+  "#b44bff", "#af3fff", "#aa33ff", "#a527ff", "#a01bff"
+]
+
+const hideDefaultCursor = () => {
+  document.body.style.cursor = 'none';
+  const clickableElements = document.querySelectorAll('a, button, input, select, textarea, [role="button"]');
+  clickableElements.forEach(element => {
+    element.style.cursor = 'none';
+  });
+}
+
 const Cursor = () => {
   const cursorRefs = useRef([]) // Stores references to all cursor elements
   const coords = useRef({ x: 0, y: 0 }) // Tracks mouse coordinates
   const animationFrameId = useRef(null) // Store the animation frame ID
   const location = useLocation() // Track route changes
-
-  const colors = [
-    "#ffffff", "#faf3ff", "#f5e7ff", "#f0dbff", "#ebcfff", 
-  "#e6c3ff", "#e1b7ff", "#dcabff", "#d79fff", "#d293ff", 
-  "#cd87ff", "#c87bff", "#c36fff", "#be63ff", "#b957ff", 
-  "#b44bff", "#af3fff", "#aa33ff", "#a527ff", "#a01bff"
-  ]
-
-  const animateCircles = () => {
-    let x = coords.current.x
-    let y = coords.current.y
-
-    cursorRefs.current.forEach((circle, index) => {
-      if (!circle) return
-
-      circle.style.transform = `translate(${x - 12}px, ${y - 12}px) scale(${(cursorRefs.current.length - index) / cursorRefs.current.length})`
-
-      circle.dataset.x = x.toString()
-      circle.dataset.y = y.toString()
-
-      const nextCircle = cursorRefs.current[index + 1] || cursorRefs.current[0]
-      if (nextCircle) {
-        const nextX = Number.parseFloat(nextCircle.dataset.x || "0")
-        const nextY = Number.parseFloat(nextCircle.dataset.y || "0")
-        x += (nextX - x) * 0.3
-        y += (nextY - y) * 0.3
-      }
-    })
-
-    animationFrameId.current = requestAnimationFrame(animateCircles)
-  }
-
-  // Function to apply cursor: none to all elements
-  const hideDefaultCursor = () => {
-    document.body.style.cursor = 'none';
-    
-    // Also hide cursor on all clickable elements to maintain consistency
-    const clickableElements = document.querySelectorAll('a, button, input, select, textarea, [role="button"]');
-    clickableElements.forEach(element => {
-      element.style.cursor = 'none';
-    });
-  }
 
   // Main effect for cursor setup
   useEffect(() => {
@@ -68,6 +41,29 @@ const Cursor = () => {
     }
 
     window.addEventListener("mousemove", handleMouseMove)
+
+    const animateCircles = () => {
+      let x = coords.current.x
+      let y = coords.current.y
+
+      cursorRefs.current.forEach((circle, index) => {
+        if (!circle) return
+
+        circle.style.transform = `translate(${x - 12}px, ${y - 12}px) scale(${(cursorRefs.current.length - index) / cursorRefs.current.length})`
+        circle.dataset.x = x.toString()
+        circle.dataset.y = y.toString()
+
+        const nextCircle = cursorRefs.current[index + 1] || cursorRefs.current[0]
+        if (nextCircle) {
+          const nextX = Number.parseFloat(nextCircle.dataset.x || "0")
+          const nextY = Number.parseFloat(nextCircle.dataset.y || "0")
+          x += (nextX - x) * 0.3
+          y += (nextY - y) * 0.3
+        }
+      })
+
+      animationFrameId.current = requestAnimationFrame(animateCircles)
+    }
     
     // Start the animation loop
     animationFrameId.current = requestAnimationFrame(animateCircles)
