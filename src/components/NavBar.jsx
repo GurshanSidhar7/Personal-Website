@@ -20,7 +20,7 @@ const NavBar = () => {
           <span className="bar"></span>
           <span className="bar"></span>
         </div>
-
+  
         {/* Navbar Menu */}
         <ul className={`navbar__menu ${menuOpen ? "active" : ""}`}>
           <li className="navbar__item">
