@@ -1,0 +1,23 @@
+{
+  "checkedAt": "2026-10-16T04:07:12.154Z",
+  "results": [
+    {
+      "url": "https://luckylease.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://luckylease.vercel.app/",
+      "title": "LuckyLease - A Sublet Marketplace"
+    },
+    {
+      "url": "https://cvlens.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://cvlens.vercel.app/",
+      "title": "CVLens"
+    },
+    {
+      "url": "https://pokepal-g.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://pokepal-g.vercel.app/",
+      "title": "Poke-Pal"
+    }
+  ]
+}

@@ -1,27 +1,34 @@
-import React from 'react';
-import Socials from '../components/Socials';  
-import WluringRing from '../components/WluringRing';  
-import './HomeStyling.css';
+import { ButtonLink } from "../components/Primitives";
+import { profile } from "../data/portfolio";
+import FollowTheWork from "../components/FollowTheWork";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div className="main">
-      <div className="main__container">
-        <div className="main__content">
-          <h1>HEY,</h1>
-          <h2>I'M GURSHAN SIDHAR</h2>
-          <p>Welcome to my personal portfolio!</p>
-          <Socials />
+    <section className="hero container" aria-labelledby="home-title">
+      <div className="hero-copy">
+        <h1 id="home-title">
+          Curiosity,
+          <br />
+          put into
+          <br />
+          <em>practice.</em>
+        </h1>
+        <p className="hero-intro">
+          I build at the intersection of software, data, and AI. Always
+          learning. Always finding a better question.
+        </p>
+        <div className="button-row">
+          <ButtonLink to="/experience">Explore my work</ButtonLink>
+          <ButtonLink href={profile.linkedin} external variant="button-outline">
+            Let’s connect
+          </ButtonLink>
         </div>
-        <div className="main__img--container">
-          <img src="image/Avatar New.png" alt="pic" id="main__img" />
+        <div className="hero-meta">
+          <span>WILFRID LAURIER UNIVERSITY</span>
+          <span>COMPUTER SCIENCE / STATISTICS</span>
         </div>
-
-        {/* keep it here; CSS will float it */}
-        <WluringRing />
       </div>
-    </div>
+      <FollowTheWork />
+    </section>
   );
-};
-
-export default Home;
+}

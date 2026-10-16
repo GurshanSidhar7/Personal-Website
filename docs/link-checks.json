@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-16T03:17:13.514Z",
+  "results": [
+    {
+      "url": "https://github.com/GurshanSidhar7",
+      "status": 200,
+      "finalUrl": "https://github.com/GurshanSidhar7"
+    },
+    {
+      "url": "https://www.linkedin.com/in/gurshan-sidhar",
+      "status": 999,
+      "finalUrl": "https://www.linkedin.com/in/gurshan-sidhar"
+    },
+    {
+      "url": "https://github.com/GurshanSidhar7/equity-options-analytics",
+      "status": 200,
+      "finalUrl": "https://github.com/GurshanSidhar7/equity-options-analytics"
+    },
+    {
+      "url": "https://equity-options-analytics-1.vercel.app/",
+      "status": 200,
+      "finalUrl": "https://equity-options-analytics-1.vercel.app/"
+    },
+    {
+      "url": "https://github.com/TaseskiCS/LuckyLease",
+      "status": 200,
+      "finalUrl": "https://github.com/TaseskiCS/LuckyLease"
+    },
+    {
+      "url": "https://github.com/CVLens/CVLens",
+      "status": 200,
+      "finalUrl": "https://github.com/TaseskiCS/CVLens"
+    },
+    {
+      "url": "https://github.com/GurshanSidhar7/Poke-Pal",
+      "status": 200,
+      "finalUrl": "https://github.com/GurshanSidhar7/Poke-Pal"
+    },
+    {
+      "url": "https://github.com/GurshanSidhar7/Personal-Website/tree/master?tab=readme-ov-file",
+      "status": 200,
+      "finalUrl": "https://github.com/GurshanSidhar7/Personal-Website/tree/main"
+    },
+    {
+      "url": "https://open.spotify.com/track/1BViPjTT585XAhkUUrkts0?si=a4f18c665392434b",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/1BViPjTT585XAhkUUrkts0?si=a4f18c665392434b"
+    },
+    {
+      "url": "https://open.spotify.com/track/7o2AeQZzfCERsRmOM86EcB?si=ad6e121d01004345",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/7o2AeQZzfCERsRmOM86EcB?si=ad6e121d01004345"
+    },
+    {
+      "url": "https://open.spotify.com/track/3EaJDYHA0KnX88JvDhL9oa?si=b53cf178439a45bb",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/3EaJDYHA0KnX88JvDhL9oa?si=b53cf178439a45bb"
+    },
+    {
+      "url": "https://open.spotify.com/track/784VjdNkpXhFV0RHquzsi2?si=e75680947f6a4915",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/784VjdNkpXhFV0RHquzsi2?si=e75680947f6a4915"
+    },
+    {
+      "url": "https://open.spotify.com/track/6yiSyupeI7KYdBZKJdnIUO?si=2e521ffef3ab4f37",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/6yiSyupeI7KYdBZKJdnIUO?si=2e521ffef3ab4f37"
+    },
+    {
+      "url": "https://open.spotify.com/track/0CjJqkWOpIUXdem5hUcxAk?si=ea0dba24c9e04716",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/0CjJqkWOpIUXdem5hUcxAk?si=ea0dba24c9e04716"
+    },
+    {
+      "url": "https://open.spotify.com/track/4wajJ1o7jWIg62YqpkHC7S?si=9bb46ea68e3b49a6",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/4wajJ1o7jWIg62YqpkHC7S?si=9bb46ea68e3b49a6"
+    },
+    {
+      "url": "https://open.spotify.com/track/2ctvdKmETyOzPb2GiJJT53?si=80893f72eaa54bee",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/2ctvdKmETyOzPb2GiJJT53?si=80893f72eaa54bee"
+    },
+    {
+      "url": "https://open.spotify.com/track/3stWWPN41byqp8loPdy92u?si=cd141a0f9d9e4328",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/3stWWPN41byqp8loPdy92u?si=cd141a0f9d9e4328"
+    },
+    {
+      "url": "https://open.spotify.com/track/17YNmMy03QLPirmBzWxFa6?si=e781a1a578134a01",
+      "status": 200,
+      "finalUrl": "https://open.spotify.com/track/17YNmMy03QLPirmBzWxFa6?si=e781a1a578134a01"
+    },
+    {
+      "url": "https://www.linkedin.com/in/gurshan-sidhar-a1945428a/",
+      "status": 999,
+      "finalUrl": "https://www.linkedin.com/in/gurshan-sidhar-a1945428a/"
+    },
+    {
+      "url": "https://wluring.xyz",
+      "error": "apiRequestContext.get: getaddrinfo ENOTFOUND wluring.xyz"
+    },
+    {
+      "url": "https://wluring.xyz/api/gurshan321/prev",
+      "error": "apiRequestContext.get: getaddrinfo ENOTFOUND wluring.xyz"
+    },
+    {
+      "url": "https://wluring.xyz/api/gurshan321/next",
+      "error": "apiRequestContext.get: getaddrinfo ENOTFOUND wluring.xyz"
+    }
+  ]
+}

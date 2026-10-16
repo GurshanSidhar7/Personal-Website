@@ -1,0 +1,751 @@
+{
+  "generatedAt": "2026-10-16T05:12:35.765Z",
+  "base": "http://127.0.0.1:4173",
+  "viewportChecks": [
+    {
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/experience",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/projects",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/contact-me",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/projects/equity-options-analytics",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/projects/lucky-lease",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/projects/cvlens",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/projects/poke-pal",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/projects/portfolio-website",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "route": "/projects/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/experience",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/projects",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/about",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/contact-me",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/projects/equity-options-analytics",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/projects/lucky-lease",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/projects/cvlens",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/projects/poke-pal",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/projects/portfolio-website",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "route": "/projects/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/experience",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/projects",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/about",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/contact-me",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/projects/equity-options-analytics",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/projects/lucky-lease",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/projects/cvlens",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/projects/poke-pal",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/projects/portfolio-website",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "route": "/projects/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/experience",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/projects",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/about",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/contact-me",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/projects/equity-options-analytics",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/projects/lucky-lease",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/projects/cvlens",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/projects/poke-pal",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/projects/portfolio-website",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "route": "/projects/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/experience",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/projects",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/about",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/contact-me",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/projects/equity-options-analytics",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/projects/lucky-lease",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/projects/cvlens",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/projects/poke-pal",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/projects/portfolio-website",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "route": "/projects/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/experience",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/projects",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/about",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/contact-me",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/projects/equity-options-analytics",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/projects/lucky-lease",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/projects/cvlens",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/projects/poke-pal",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/projects/portfolio-website",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/missing",
+      "status": 404,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "route": "/projects/missing",
+      "status": 404,
+      "overflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 1440,
+      "route": "/",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/experience",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/projects",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/about",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/contact-me",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/projects/equity-options-analytics",
+      "violations": []
+    },
+    {
+      "width": 1440,
+      "route": "/missing",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "violations": []
+    },
+    {
+      "width": 375,
+      "route": "/about",
+      "violations": []
+    }
+  ],
+  "interactions": [
+    "Complete project list, live-site actions, client navigation, nested refresh and browser Back",
+    "Curved work map: keyboard area selection, anchored experience navigation, and project navigation",
+    "Experience and LinkedIn actions, compact footer, and coursework integrated inside the foundation card",
+    "About: verified personal info and four favourite films below the portrait",
+    "12-frame photo viewer, wraparound, arrow keys, thumbnails, modal focus trap, Escape and focus restoration; no music links or contact sheet",
+    "Mobile menu, Escape, route selection and automatic close",
+    "Legacy gallery HTTP redirect and journal anchor",
+    "Actual touch input swipes to the next journal frame",
+    "Readable case-study HTML with JavaScript disabled"
+  ],
+  "assets": [
+    {
+      "path": "/media/equity-options.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/Lucky_Lease.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/cvlens.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/PokePal.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/port_website.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/gursh_speech.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/seigfried.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/seigfried-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/bird_sun-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/dark_ryd-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/house-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/snowboard-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/late_night-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/jellyfish-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/mountain-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/sunflower-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/yosemit-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/mountain_sun-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/la_tree-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/Gurshan%20Sidhar%20Final%20Resume.pdf",
+      "status": 200
+    },
+    {
+      "path": "/fonts/manrope.ttf",
+      "status": 200
+    },
+    {
+      "path": "/fonts/instrument-serif.ttf",
+      "status": 200
+    },
+    {
+      "path": "/fonts/instrument-serif-italic.ttf",
+      "status": 200
+    },
+    {
+      "path": "/fonts/ibm-plex-mono.ttf",
+      "status": 200
+    },
+    {
+      "path": "/fonts/permanent-marker.ttf",
+      "status": 200
+    },
+    {
+      "path": "/social-card.png",
+      "status": 200
+    },
+    {
+      "path": "/icon.svg",
+      "status": 200
+    },
+    {
+      "path": "/brand-mark.svg",
+      "status": 200
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/bird_sun.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/dark_ryd.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/gursh_speech.png",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/house.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/jellyfish.JPG",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/la_tree.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/late_night.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/mountain.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/mountain_sun.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/seigfried.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/snowboard.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/sunflower.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/tree_gurshan.jpg",
+      "status": 200
+    },
+    {
+      "path": "/gallery_image/yosemit.jpg",
+      "status": 200
+    },
+    {
+      "path": "/media/ATLA.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/Avatar-New.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/Avt.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/bird_sun.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/dark_ryd.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/gallery.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/good_space.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/gursh_speech-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/house.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/jellyfish.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/la_tree.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/late_night.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/mountain.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/mountain_sun.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/snowboard.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/sunflower.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/tree_gurshan-thumb.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/tree_gurshan.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/wluring_white.webp",
+      "status": 200
+    },
+    {
+      "path": "/media/yosemit.webp",
+      "status": 200
+    }
+  ],
+  "runtimeErrors": []
+}

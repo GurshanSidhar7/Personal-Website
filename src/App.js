@@ -1,25 +1,54 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import Home from './pages/Home';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
-import Projects from './pages/Projects';
-import Cursor from './components/Cursor';
+import {
+  BrowserRouter,
+  Navigate,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import RouteEffects from "./components/RouteEffects";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import ProjectDetail from "./pages/ProjectDetail";
+import Experience from "./pages/Experience";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+import "./App.css";
 
-function App() {
+export function PortfolioContent() {
+  const location = useLocation();
   return (
-    <Router>
+    <>
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
+      <RouteEffects />
       <NavBar />
-      <Cursor /> 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/contact-me" element={<Contact />} />
-      </Routes>
-    </Router>
+      <main id="main-content" tabIndex="-1" key={location.pathname}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:slug" element={<ProjectDetail />} />
+          <Route path="/about" element={<About />} />
+          <Route
+            path="/gallery"
+            element={<Navigate to="/about#photo-journal" replace />}
+          />
+          <Route path="/contact-me" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
   );
 }
-
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <PortfolioContent />
+    </BrowserRouter>
+  );
+}
