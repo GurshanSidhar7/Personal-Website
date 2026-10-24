@@ -23,7 +23,7 @@ export function getPageMeta(pathname) {
     ],
     "/projects": [
       "Projects — Gurshan Sidhar",
-      "Explore Equity Options Analytics, LuckyLease, CVLens, Poke-Pal, and the personal portfolio. Software, data, and AI projects by Gurshan Sidhar.",
+      "Explore Equity Options Analytics, LuckyLease, CVLens, PokéPal, and the personal portfolio. Software, data, and AI projects by Gurshan Sidhar.",
     ],
     "/about": [
       "About — Gurshan Sidhar",
