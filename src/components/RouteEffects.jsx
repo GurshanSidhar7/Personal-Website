@@ -29,6 +29,10 @@ export function getPageMeta(pathname) {
       "About — Gurshan Sidhar",
       "Meet Gurshan Sidhar, Computer Science student, builder, and photographer. A visual journal, personal interests, and the tools behind the work.",
     ],
+    "/alttabtheory": [
+      "AltTabTheory — Gurshan Sidhar",
+      "Explore AI, emerging technology, human psychology, and philosophy with AltTabTheory. Short videos and conversations by Gurshan Sidhar on Instagram and X.",
+    ],
     "/contact-me": [
       "Contact — Gurshan Sidhar",
       "Get in touch with Gurshan Sidhar about software, data, AI, and interesting ideas.",

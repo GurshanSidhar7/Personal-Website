@@ -1,5 +1,6 @@
 import { profile } from "../data/portfolio";
 import { Arrow } from "./Primitives";
+import SocialIcon from "./SocialIcon";
 
 export default function Footer() {
   return (
@@ -22,6 +23,24 @@ export default function Footer() {
           </a>
           <a href={profile.github} target="_blank" rel="noopener noreferrer">
             GitHub <Arrow diagonal />
+          </a>
+          <a
+            href={profile.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="AltTabTheory on Instagram (opens in a new tab)"
+          >
+            <SocialIcon platform="instagram" className="footer-social-icon" />
+            Instagram
+          </a>
+          <a
+            href={profile.x}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="AltTabTheory on X (Twitter) (opens in a new tab)"
+          >
+            <SocialIcon platform="x" className="footer-social-icon" />
+            X
           </a>
           <a href={profile.resume} target="_blank" rel="noopener noreferrer">
             Resume <Arrow diagonal />

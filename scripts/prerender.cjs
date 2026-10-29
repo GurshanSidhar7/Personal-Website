@@ -33,6 +33,7 @@ const routes = [
   "/projects",
   ...projects.map((p) => `/projects/${p.slug}`),
   "/about",
+  "/alttabtheory",
   "/contact-me",
   "/404",
 ];

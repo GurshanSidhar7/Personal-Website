@@ -74,6 +74,7 @@ export default function NavBar() {
             ["/experience", "Experience"],
             ["/projects", "Projects"],
             ["/about", "About"],
+            ["/alttabtheory", "AltTabTheory"],
           ].map(([path, label]) => (
             <NavLink
               key={path}

@@ -4,6 +4,8 @@ export const profile = {
   academicEmail: "sidh5429@mylaurier.ca",
   github: "https://github.com/GurshanSidhar7",
   linkedin: "https://www.linkedin.com/in/gurshan-sidhar",
+  instagram: "https://www.instagram.com/alttabtheory",
+  x: "https://x.com/alttabtheory",
   resume: "/Gurshan%20Sidhar%20Final%20Resume.pdf",
   languages: ["English", "French", "Punjabi"],
   favouriteFilms: [

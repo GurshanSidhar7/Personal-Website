@@ -13,6 +13,7 @@ import Projects from "./pages/Projects";
 import ProjectDetail from "./pages/ProjectDetail";
 import Experience from "./pages/Experience";
 import About from "./pages/About";
+import AltTabTheory from "./pages/AltTabTheory";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import "./App.css";
@@ -33,6 +34,7 @@ export function PortfolioContent() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:slug" element={<ProjectDetail />} />
           <Route path="/about" element={<About />} />
+          <Route path="/alttabtheory" element={<AltTabTheory />} />
           <Route
             path="/gallery"
             element={<Navigate to="/about#photo-journal" replace />}
